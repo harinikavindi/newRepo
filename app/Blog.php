@@ -2,10 +2,7 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
-{
     // protected $fillable = [
     //     'id','title','introduction', 'description','category_id','age_group_id'
     // ];
