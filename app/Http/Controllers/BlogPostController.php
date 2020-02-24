@@ -46,17 +46,11 @@ class BlogPostController extends Controller
         //
     }
 
-    /**
-     * Show th
-     */   edit the blog postst
+    newmethod(){
 
+kkkkkk;
 
-        // $data = AgeGroup::find(1);                 // calling the relationship made for categoryAgeGroup- show 1st ID 
-        // dd($data);
-
-        $data = CategoryAgeGroup::where(['category_id'=>'1'])->get();                // calling the relationship made for categoryAgeGroup- show 1st ID 
-        dd($data);
-    }
+}
 
     /**
      * Update the specified resource in storage.
