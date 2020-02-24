@@ -15,12 +15,7 @@ class Category extends Model
  *
  * @var int
  */
-protected $primaryKey = 'id';
-/**
- * The attributes that are mass assignable.
- *
- * @var array
- */
+
 protected $guarded = [];
 /**
  * Make false default (created_at,updated_at).
