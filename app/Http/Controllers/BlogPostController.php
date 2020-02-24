@@ -32,19 +32,16 @@ class BlogPostController extends Controller
         return response(['post'=>$post]);            // display the table content
 
        
+	newmethod(){
 
+	CODE HERE;
+	}
 
 
     //
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
+    
         //
     }
 
