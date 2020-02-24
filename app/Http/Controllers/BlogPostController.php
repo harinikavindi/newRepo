@@ -100,6 +100,7 @@ class BlogPostController extends Controller
     public function update(Request $request, $id)
     {
         $post = BlogPost::find($id);
+
         $post->update($request->all());
         return response()->json('successfully updated');//
     }
@@ -116,4 +117,5 @@ class BlogPostController extends Controller
         $post->delete();
         return response()->json('successfully deleted');//
     }
+
 }
