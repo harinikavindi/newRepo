@@ -43,10 +43,6 @@ protected $table = 'category_age_groups';
 //         return $this->hasMany ('App\Category','category_id','id');
 //     }
 
-public function age_groups()
-{
-    return $this->belongsTo('App\AgeGroup','age_group_id','id');
 
-}
 
 }
