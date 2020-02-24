@@ -69,10 +69,6 @@ class BlogPostController extends Controller
     {
         $post = BlogPost::find($id);
         $
-    public function delete($id)
-    {
-        $post = BlogPost::find($id);
-        $post->delete();
-        return response()->json('successfully deleted');//
-    }
+    //hkjdhkjshkjz
+Zxfsfdgdhdrhyry
 }
