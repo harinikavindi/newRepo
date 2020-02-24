@@ -30,6 +30,4 @@ public $timestamps = false;
  *
  * @var string
  */
-protected $table = 'blogs';
 
-}
